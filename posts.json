@@ -7,12 +7,13 @@
         "author": "Admin",
         "date": "2024-03-19"
     },
+
     {
         "id": 2,
-        "title": "Getting Started with Flask",
-        "excerpt": "Learn how to build your first web application using Flask, a lightweight WSGI web application framework in Python...",
-        "content": "Flask is a lightweight WSGI web application framework in Python. It's designed to be simple and easy to get started with, while also being powerful enough to build complex web applications.\n\nHere's a simple Flask application:\n\n```python\nfrom flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef hello():\n    return 'Hello, World!'\n```",
+        "title": "How to Build a RESTful API with Flask",
+        "excerpt": "In this tutorial, we'll learn how to build a RESTful API with Flask, a popular web framework for Python...",
+        "content": "In this tutorial, we'll learn how to build a RESTful API with Flask, a popular web framework for Python. We'll cover the following topics:\n- Setting up a Flask project\n- Creating routes for different API endpoints\n- Handling HTTP methods like GET, POST, PUT, and DELETE\n- Serializing data with JSON\n- Testing the API with tools like Postman\n\nBy the end of this tutorial, you'll have a working RESTful API that can be used to interact with a database or other services.",
         "author": "Admin",
-        "date": "2024-03-20"
+        "date": "2024-03-19"
     }
 ]
