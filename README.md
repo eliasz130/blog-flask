@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 4. Run the application:
 ```bash
-python app.py
+python app.py # or flask run
 ```
 
 5. Visit `http://localhost:5000` in your browser
