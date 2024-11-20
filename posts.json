@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Welcome to My Flask Blog",
+        "excerpt": "This is my first post on this Flask-powered blog. I'll be sharing my thoughts on web development, Python programming, and more...",
+        "content": "This is my first post on this Flask-powered blog. I'll be sharing my thoughts on web development, Python programming, and other technical topics. Stay tuned for more content!\n\nIn this blog, we'll explore:\n- Web development best practices\n- Python tips and tricks\n- Flask framework tutorials\n- Database design patterns\n- And much more!",
+        "author": "Admin",
+        "date": "2024-03-19"
+    },
+    {
+        "id": 2,
+        "title": "Getting Started with Flask",
+        "excerpt": "Learn how to build your first web application using Flask, a lightweight WSGI web application framework in Python...",
+        "content": "Flask is a lightweight WSGI web application framework in Python. It's designed to be simple and easy to get started with, while also being powerful enough to build complex web applications.\n\nHere's a simple Flask application:\n\n```python\nfrom flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef hello():\n    return 'Hello, World!'\n```",
+        "author": "Admin",
+        "date": "2024-03-20"
+    }
+]
